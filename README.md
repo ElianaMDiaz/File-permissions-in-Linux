@@ -14,8 +14,6 @@ The following command was used to list the details of files and directories, inc
 ls -la
 ```
 
-![ls -la Command](images/ls-la.png)
-
 The command output displays a detailed listing of the file contents, including hidden files. The first column's 10-character string represents the permissions set on each file or directory.
 
 ### Describe the Permissions String
@@ -37,8 +35,6 @@ The organization determined that "others" should not have write access to any fi
 chmod o-w project_k.txt
 ```
 
-![chmod Command](images/chmod.png)
-
 ### Change Permissions on a Hidden File
 
 For the hidden file `.project_x.txt`, the following commands were used to adjust permissions:
@@ -49,8 +45,6 @@ chmod g-w .project_x.txt
 chmod g+r .project_x.txt
 ```
 
-![Hidden File Permissions](images/hidden-file-permissions.png)
-
 ### Change Directory Permissions
 
 The `researcher2` user was given exclusive access to the `drafts` directory:
@@ -58,8 +52,6 @@ The `researcher2` user was given exclusive access to the `drafts` directory:
 ```bash
 chmod g-x drafts
 ```
-
-![Directory Permissions](images/directory-permissions.png)
 
 ## Summary
 
