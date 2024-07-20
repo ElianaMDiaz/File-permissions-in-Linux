@@ -4,16 +4,6 @@
 
 This project focuses on managing file permissions within a Linux system. The primary goal was to update the file permissions for specific files and directories within the projects directory to enhance system security. This document details the steps taken to check and update these permissions.
 
-## Instructions
-
-To include Linux commands in this project, screenshots of the commands as entered in the Bash shell are provided. If you cannot include screenshots, you may type the commands directly.
-
-### How to Take Screenshots
-
-- There are multiple applications available for taking screenshots. If you are unsure how to take a screenshot on your device, search online for “how to take a screenshot in [your operating system].” Replace “[your operating system]” with the operating system your computer uses.
-- Do not include the lab instructions on the right of the screen in your screenshots.
-- For any typed commands, highlight your command in gray and use a monospaced font, e.g., `grep OS updates.txt`.
-
 ## Tasks Performed
 
 ### Check File and Directory Details
